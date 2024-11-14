@@ -23,6 +23,13 @@ include('../src/script/session_carrinho.php');
     <link rel="stylesheet" href="../src/script/style.css">
     <link rel="stylesheet" href="../src/script/responsivo.css">
     <link rel="shortcut icon" href="../src/favicon/android-chrome-512x512.png" type="image/x-icon">
+    <style>
+        <?php if (!empty($primeiroNome)): ?>
+        nav a.link-menupc {padding: 5vh 19px 4.4vh 19px;}
+
+        nav .ajusteconta {width: 105px;}
+        <?php endif; ?>
+    </style>
 </head>
 <body>
     <header>
@@ -171,7 +178,7 @@ include('../src/script/session_carrinho.php');
                         // Calcula o preço total
                         $subtotal = $item['preco'] * $item['quantidade'];
                         $preco_total += $subtotal;
-    
+                        
                         echo "
                         <div class='prod-carrinho'>
                             <a href='?action=delete&id={$item['id']}&cor={$item['cor']}'>

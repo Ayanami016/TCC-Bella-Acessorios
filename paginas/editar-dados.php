@@ -19,7 +19,7 @@ include('../src/script/session_carrinho.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bella Acessórios - Página Inicial</title>
+    <title>Editar Dados</title>
     <link rel="stylesheet" href="../src/script/style.css">
     <link rel="stylesheet" href="../src/script/responsivo.css">
     <link rel="shortcut icon" href="../src/favicon/android-chrome-512x512.png" type="image/x-icon">
