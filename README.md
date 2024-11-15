@@ -8,9 +8,6 @@
 Trabalho de Conclusão de Curso do 3º ano de Desenvolvimento de Sistemas. <br>
 Disponível para computadores, tablet e celular.
 
-## Progresso do Projeto
-▓▓▓▓▓▓▓▓▓▒ 90% 
-
 ## :computer: Instalação
 **Programas usados:**
 - Visual Studio Code;
@@ -18,7 +15,7 @@ Disponível para computadores, tablet e celular.
 - MySQL Workbench 8.0 CE.
 
 **Uso:** <br>
-Antes de tudo, ao baixar o projeto, <u>renomeie o nome da pasta "TCC-Main" para "TCC"</u>, caso contrário, não carregará!
+Antes de tudo, ao baixar o projeto, <u>renomeie o nome da pasta para "TCC"</u>, caso contrário, não carregará!
 1. <u>Workbench:</u>
     - Crie uma conexão chamada "tcc", username "root" e senha default;
     - Execute o _database.sql_ e _insert.sql_. Ambos os arquivos estão na pasta "/src/script". Com a execução, todas informações necessárias serão carregadas no navegador.
@@ -27,14 +24,11 @@ Antes de tudo, ao baixar o projeto, <u>renomeie o nome da pasta "TCC-Main" para 
    - Certifique-se que tanto o Apache quanto o MySQL esteja ligado para o PHP carregar corretamente.
 
 ## :chart_with_upwards_trend: Status
-[ :white_check_mark: ] Banco de Dados dos Produtos <br>
-[ :white_check_mark: ] Página de Detalhe dos Produtos <br>
+[ :white_check_mark: ] Banco de dados dos produtos <br>
+[ :white_check_mark: ] Página de cada dos produtos <br>
 [ :white_check_mark: ] Checkout <br>
-[ :white_check_mark: ] Finalização da Compra <br>
+[ :white_check_mark: ] Finalização da compra <br>
 [ :white_check_mark: ] Confirmação e geração dos métodos de pagamento <br>
-[ :white_check_mark: ] Cadastro e Login de usuário <br>
+[ :white_check_mark: ] Cadastro e login de usuário <br>
 [ :white_check_mark: ] Alteração de dados <br>
-[ :white_check_mark: ] 🐛 Correção de Bugs
-
-## ⚠️ Aviso
-O banco de dados **NÃO POSSUI** proteção de dados pessoais!
+[ :white_check_mark: ] Correção de bugs
