@@ -2,6 +2,20 @@
     include('../src/script/conexao.php');
     // Verifica se usuário está logado
     session_start();
+
+    // Ao fazer a compra e não possuir login, redireciona para a página de login
+    if (isset($_GET['comprar'])) {
+        if (!isset($_SESSION['id_usuario'])) {
+            // Mesmo sem login, ele adiciona no carrinho. É bom limpar :)
+            unset($_SESSION['carrinho']);
+            echo "<script>
+                    alert('É necessário ter uma conta para realizar uma compra!')
+                    window.location.href = '/TCC/paginas/login.php';
+                </script>";            
+            exit;
+        }
+    }
+    
     if (isset($_SESSION['nome_exibir'])) {
         // Divida o nome completo em partes
         $nomeCompleto = $_SESSION['nome_exibir'];

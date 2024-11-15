@@ -234,7 +234,6 @@
     <article class="sobre-loja">
         <h1>Sobre a Loja</h1>
         <p>Somos uma empresa do ramo de acessórios. Nossos produtos são brincos, colares e pulseiras de aço inoxidável folheadas a prata. Todos os nossos produtos são prateados e visamos boa qualidade, custo-benefício e  atendimento de excelência.</p>
-        <a href="#"><button class="btn-saibamais" btn-placeholder="Saiba Mais"></button></a>
     </article>
 
     <!-- MAIS VENDIDOS -->
